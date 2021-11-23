@@ -103,7 +103,7 @@ html {
 #slider {
     border-top: 46.400px;
     padding-top: 50%;  /* 50% chiều ngang của chính nó */
-    background: url('/img/slider1.jpg') top center / cover no-repeat ;
+    background: url('../img/slider1.jpg') top center / cover no-repeat ;
     position: relative;
 }
 #slider .text-content {
