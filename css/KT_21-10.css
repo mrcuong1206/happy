@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FECF6A;
+}
+
+#header {
+    background-color: black;
+    height: 40px;
+}
+
+#header .nav {
+    text-align: center;
+}
+
+.nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+.nav li a {
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 0px 24px;
+    font-family: sans-serif;
+    display: block;
+}
+
+.nav li:hover a {
+    color: #FECF6A;
+}
+
+.heading-one {
+    text-align: center;
+    font-family: cursive;
+    margin-top: 15px;
+}
+
+#content {
+    margin-top: 50px;
+    margin: 0 20%;
+}
+
+.left {
+    float: left;
+    width: 173px;
+}
+
+.left .quicklinks {
+    border: 1px solid black;
+    width: 170px;
+    margin-bottom: 40px;
+}
+
+.quicklinks h4 {
+    padding: 5px 10px;
+}
+
+.links li {
+    list-style: none;
+}
+
+.links li a {
+    text-decoration: none;
+    padding: 5px 15px;
+    color: black;
+}
+
+.links li:hover a {
+    color: red;
+}
+
+.right {
+    float: left;
+    /* background-color: #ccc; */
+    width: 700px;
+    margin-left: 25px;
+}
+
+.profile {
+    margin-top: 20px;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+.heading-four {
+    font-size: 22px;
+    margin-bottom: 14px;
+    border-bottom: 1px solid black;
+}
+
+.space {
+    border-bottom: 1px;
+    padding: 5px;
+}
+
+.list {
+    margin-top: 30px;
+}
+
+.list th {
+    padding: 5px 10px;
+}
+
+.list td {
+    text-align: center;
+}
